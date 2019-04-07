@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:analog_test-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -241,17 +242,6 @@ F 3 "" H 4700 2800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
-U 1 1 5C98983F
-P 4450 2400
-F 0 "C4" V 4600 2400 50  0000 L CNN
-F 1 "0.02u" V 4300 2300 50  0000 L CNN
-F 2 "" H 4488 2250 50  0000 C CNN
-F 3 "" H 4450 2400 50  0000 C CNN
-	1    4450 2400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L R R13
 U 1 1 5C989C21
 P 5000 2850
@@ -453,7 +443,7 @@ Wire Wire Line
 	4700 3050 4700 2950
 Connection ~ 3700 3050
 Wire Wire Line
-	4600 2400 4700 2400
+	4300 2400 4700 2400
 Wire Wire Line
 	3700 1950 4150 1950
 Wire Wire Line
